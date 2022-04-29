@@ -1,0 +1,42 @@
+Breadboard Utilities
+====================
+This is a collection of utilities in the form of PCBs mounted on a breadboard,
+which distributes power to them. I've used them for testing and development
+over the last few years.
+
+These are being released with no warranty or support, and while they have been
+useful to me, New Systems Instruments does not warrant their usefulness or
+fitness for any particular purpose.
+
+If you need help, please post in one of the usual public forums. I'm a helpful
+kind of human, so I might respond in a forum, but I can't commit to giving any
+support at all.
+
+I am releasing my work according to the terms in LICENSE.txt. A few things in
+here are the work of others, and AFAIK are freely distributable and compatible
+with that license, but I do not consider this a relicensing or any alteration
+significant enough to claim some part of copyright on those files.
+
+Since the DIY community is often considerate of wishes beyond the legal
+requirements, know that I'm happy for anyone who wishes to build these for
+whatever purpose, alter them as long as it is clear that they are altered,
+incorporate them into commercial products, make collective PCB runs with
+other DIYers, etc. If you're selling them at scale for profit, contact me
+first and maybe throw me a bone, but I'm sure we can work something out.
+
+See the individual Read Me files for more details.
+
+Breadboard Compatibility
+------------------------
+This works with common 0.1" pitch breadboards. Note that AFAIK there is no
+fixed standard for breadboards, so there is no guarantee it will work with any
+particular breadboard. The most common incompatibility I've seen is where the
+rail pins are not aligned with the main pins of the breadboard.
+
+The power is put on the rails as follows:
+
+-12 GND ... GND +12
+
+As I have not seen any standard breadboard which is labeled this way, it is
+recommended that you write over the +/- symbols on your breadboard with a
+permanent marker.

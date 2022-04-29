@@ -1,0 +1,22 @@
+Reference,Value,Distributor,Manufacturer,Part No.,Quantity,Price
+C1 C6 C7 C12 C13 C16,100n,"Mouser,Digi-Key",Vishay,K104K15X7RF5TH5,6,$0.24 
+C2 C11,1u,"Mouser,Digi-Key",Nichicon,UES1H010MDM,2,$0.49 
+C3 C10,10u,"Mouser,Digi-Key",Nichicon,UPS1V100MDD,2,$0.33 
+C4 C9,1.5n C0G,"Mouser,Digi-Key",TDK,FG28C0G1H152J,2,$0.31 
+C5 C8 C14 C15,100p,"Mouser,Digi-Key",Vishay,K101J15C0GF5TH5,4,$0.27 
+D1 D2,WP710A10ED,"Mouser,Digi-Key",Kingbright,WP710A10ID,2,$0.35 
+D3 D4 D5 D6,BZX79C5V1,"Mouser,Digi-Key",ON Semiconductor,BZX79C5V1,4,$0.16 
+J5 J6,1x2 pin 2.54mm,"Mouser,Digi-Key",Harwin,M20-9770242,2,$0.17 
+J7 J8,2x5 pin 2.54mm,"Mouser,Digi-Key",Harwin,M20-9760542,2,$0.45 
+Q1 Q2,2N3906,"Mouser,Digi-Key",Central Semiconductor,2N3906,2,$0.44 
+R1 R12,680,"Mouser,Digi-Key",Yageo,MFR-25FRF52-680R,2,$0.12 
+R2 R11,5.6k,"Mouser,Digi-Key",Yageo,MFR-25FRF52-5K6,2,$0.12 
+R3 R6 R7 R10 R14 R17,47k,"Mouser,Digi-Key",Yageo,MFR-25FRF52-47K,6,$0.08 
+R4 R9 R15 R16,1k,"Mouser,Digi-Key",Yageo,MFR-25FRF52-1K,4,$0.12 
+R5 R8,12k,"Mouser,Digi-Key",Yageo,MFR-25FRF52-12K,2,$0.10 
+R13 R18,18k,"Mouser,Digi-Key",Yageo,MFR-25FRF52-18K,2,$0.12 
+U1 U2,TL074,"Mouser,Digi-Key",Texas Instruments,TL074CN,2,$0.86 
+,,,,,,
+J1 J2 J3 J4,3.5mm Jack,"Thonk, Antique Electronic Supply, Synthcube, Modular Addict",Qing Pu,WQP518MA/PJ301,4,$0.49 
+RV1 RV2,100kA,"Thonk, Antique Electronic Supply, Love My Switches, Smallbear, Synthcube, Modular Addict, Tayda",Alpha/Various,9mm Vertical 100k Audio/Log Taper,2,$1.92 
+SW1 SW2,SPDT,"Thonk, Love My Switches, Smallbear, Synthcube, LCSC",Taiway/Various,Sub-Miniature SPDT ON-ON Toggle,2,$1.95 

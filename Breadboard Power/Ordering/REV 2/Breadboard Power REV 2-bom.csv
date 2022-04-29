@@ -1,0 +1,22 @@
+Reference,Value,Distributor,Manufacturer,Part No.,Quantity,Price
+C1,47n,"Mouser,Digi-Key",Vishay,K473K15X7RF5TH5,1,$0.25 
+C12 C13,220u,"Mouser,Digi-Key",Nichicon,UPS1E221MPD,2,$0.49 
+C4 C5,3300u,"Mouser,Digi-Key",Nichicon,UPJ1E332MHD,2,$2.38 
+C6 C7 C8 C9 C10 C11,100n,"Mouser,Digi-Key",Vishay,K104K15X7RF5TH5,6,$0.24 
+D1 D2,1N5819,"Mouser,Digi-Key",ON Semiconductor,1N5819G,2,$0.59 
+D3,WP710A10LSECK/J3,"Mouser,Digi-Key",Kingbright,WP710A10LSECK/J3,1,$0.67 
+D4,WP710A10LVBC/D,"Mouser,Digi-Key",Kingbright,WP710A10LVBC/D,1,$0.58 
+J1,Barrel_Jack,"Mouser,Digi-Key",Kobiconn,163-179PH-EX,1,$1.04 
+J2 J3,Conn_02x05_Odd_Even,"Mouser,Digi-Key",Harwin,M20-9760542,2,$0.43 
+J4 J5,Conn_02x08_Odd_Even,"Mouser,Digi-Key",3M,30316-6002HB,2,$0.94 
+R1,150k,"Mouser,Digi-Key",Yageo,MFR-25FRF52-150K,1,$0.11 
+R2 R3,13k,"Mouser,Digi-Key",Yageo,MFR-25FRF52-13K,2,$0.13 
+R4,160k,"Mouser,Digi-Key",Yageo,MFR-25FRF52-160K,1,$0.12 
+R5,5.1k,"Mouser,Digi-Key",Yageo,MFR-25FRF52-5K1,1,$0.13 
+R6,4.7k,"Mouser,Digi-Key",Yageo,MFR-25FRF52-4K7,1,$0.12 
+RV1 RV2,20k,"Mouser,Digi-Key",TT Electronics,67YR20K,2,$1.70 
+U1,LT1963,"Mouser,Digi-Key",Analog Devices Inc.,LT1963ET#PBF,1,$6.92 
+U2,LT3015,"Mouser,Digi-Key",Analog Devices Inc.,LT3015ET#PBF,1,$7.93 
+,12 mm M3 standoffs,"Mouser,Digi-Key",Keystone Electronics,24434,2,$0.47 
+,M3 screws,"Mouser,Digi-Key",Eagle Plastic Devices,48SM003,2,$0.18 
+,12 VAC power supply,"Mouser,Digi-Key",Triad,WAU12-500,1,$17.17 

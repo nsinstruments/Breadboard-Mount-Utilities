@@ -1,0 +1,7 @@
+﻿Reference,Value,Distributor,Manufacturer,Part No.,Quantity,Price
+D1 D2 ,1N4148,Mouser/Digi-Key,ON Semiconductor,1N4148,2,$0.10
+J5 J6 ,Conn_02x05_Odd_Even,Mouser/Digi-Key,Harwin,M20-9760542,2,$0.43
+Jx,Conn_01x06,Mouser/Digi-Key,Harwin,M20-9770742,2,$0.51
+R1 R4 ,3.9k,Mouser/Digi-Key,Yageo,MFR-25FRF52-3K9,2,$0.10
+R2 R3 R5 R6 ,100k,Mouser/Digi-Key,Yageo,MFR-25FRF52-100K,4,$0.12
+RV1 RV2 ,10k,Mouser/Digi-Key,Bourns,3306F-1-103,2,$0.43
