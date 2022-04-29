@@ -24,7 +24,8 @@ This uses very high quality linear LDO regulators and an AC input, resulting
 in extremely low ripple at 60Hz, without significant harmonic content at high
 frequencies. I haven't done any robust measurements, but it seems to have
 ripple within about 500uV at low loads, up to 1-2mV at high loads. So long as
-the reservoir capacitor doesn't dip below the drop out ratings for the 
+the reservoir capacitor doesn't dip below the drop out ratings for the
+regulators.
 
 Compatibility and Location of the Rails
 ---------------------------------------

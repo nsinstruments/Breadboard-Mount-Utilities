@@ -20,5 +20,5 @@ that it's intuitive and simple and easy to understand and modify.
 Another thing that I should mention is that you should consider whether the
 transistors in question need to have the same Vbe or just the same Vt, or
 temperature dependency. Proximity gives you the same Vt, and you don't need to
-match. In my case, Vt was the important part, and so I don't use this circuit
-very often.
+match. In my case, Vt is usually the important part, and so I don't use this
+circuit very often.
