@@ -14,7 +14,7 @@ R9 R14,1.3M,"Mouser,Digi-Key",Yageo,MFR-25FRF52-1M3,2,$0.18
 R10 R15,51k,"Mouser,Digi-Key",Yageo,MFR-25FRF52-51K,2,$0.12 
 R11 R16,750k,"Mouser,Digi-Key",Yageo,MFR-25FRF52-750K,2,$0.12 
 RV1 RV2 RV3 RV4 RV5 RV6,100k,"Mouser,Digi-Key",TT Electronics,67YR100K,6,$1.88 
-U1,OPA2134,"Mouser,Digi-Key",Texas Instruments,OPA2134PA,1,$6.15 
+U1,OPA2134,"Mouser,Digi-Key",(Pick one),"AD: LT1113CN, TI: OPA2134PA, TLE2072ACP, TLE2082ACP",1,$6.15 
 U2 U3,LM385BXZ-2.5,"Mouser,Digi-Key",Texas Instruments,LM385BXZ-2.5/NOPB,2,$2.95 
 ,,,,,,
 J1 J2,3.5mm Jack,"Thonk, Antique Electronic Supply, Synthcube, Modular Addict",Qing Pu,WQP518MA/PJ301,2,$0.49 
