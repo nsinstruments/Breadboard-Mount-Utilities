@@ -1,6 +1,7 @@
 Breadboard Power
 ================
-This is a power supply for a breadboard, providing +12V -12V and ground.
+This is a power supply for a breadboard, providing +12V -12V and ground. It is
+designed to be robust, simple, repairable, and safe.
 
 Power Capabilities
 ------------------
@@ -13,15 +14,10 @@ available that would be able to provide more current. However, consider
 carefully whether you actually want your breadboard, or any wires sticking out
 of it, to be able to deliver enough current to catch components on fire.
 
-If you want 15V out instead, this should be pretty easily configurable to
-provide that. While I did not design it with 15V in mind, I think 15V can
-generally be tuned without replacing any components other than the wall wart
-power.
-
 Noise and Precision
 -------------------
-This uses very high quality linear LDO regulators and an AC input, resulting
-in extremely low ripple at 60Hz, without significant harmonic content at high
+This uses high quality linear LDO regulators and an AC input, resulting
+in low ripple at 60Hz, without significant harmonic content at high
 frequencies. I haven't done any robust measurements, but it seems to have
 ripple within about 500uV at low loads, up to 1-2mV at high loads. So long as
 the reservoir capacitor doesn't dip below the drop out ratings for the
@@ -45,14 +41,17 @@ rail pins are not aligned with the main pins of the breadboard.
 Safety
 ------
 As a DIY project, I cannot possibly provide any guarantees that the finished
-device will be safe. As with any electrical device, there is a small risk of
-shock or fire under certain circumstances. Nevertheless, because it is
-designed as a half-wave rectifier, overcurrents (shorts) tend to result in
-both power rails rapidly dropping voltage, thus slowing the current's rise and
-mitigating the effects. While there is no guarantee this will protect whatever
-you futzed up, it has a greater chance of doing so than for a full-wave, high
-power supply. Of course this is not as good as a properly current-limited
-supply, but it acts similarly for a lot less money and complexity.
+device will be safe. As with any unshielded electrical device, there is a small
+risk of shock or fire under certain circumstances.
+
+Nevertheless, this power supply is designed with safety and robustness in mind.
+Resettable fuses placed between the reservoir capacitors and the regulators
+will clamp down on overcurrents and shorts. If you trip them, unplug it, count
+to 10, and plug it back in. Additionally, the regulators themselves have
+internal current limiters that might catch on before the fuses. Additionally,
+there are zeners to prevent overvoltage, which, depending on how bad the
+overvoltage is, will trip those same fuses. And of course the power itself is
+coming from the isolated secondary of a transformer.
 
 Ordering and Assembly
 ---------------------
@@ -66,6 +65,9 @@ I won't go into details here. Just a few notes.
   too easily. The voltage each diode sees is rail to rail at the supply
   capacitors, so don't skimp on a lower breakdown voltage.
 
-* The LEDs are low current. If you change them, you will probably need to
-  change the current limiting resistors as well.
-
+* The LEDs are low current, and the resistors into them give very low current,
+  resulting in just enough brightness so you can tell that they're on. This
+  "barely on" is intentional behavior to lower eye strain when looking at the
+  breadboard, but if you want them to be brighter, just lower the value of the
+  resistors by half or so. Note that if you substitute higher current LEDs, you might need
+  lower value resistors for the LEDs to be visible at all.

@@ -1,0 +1,24 @@
+Reference,Value,Footprint,Manufacturer,Part No.,Quantity
+C1,47n,Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm,Vishay,K473K15X7RF5TH5,1
+C4 C5,3300u,Capacitor_THT:CP_Radial_D16.0mm_P7.50mm,Nichicon,UPJ1E332MHD,2
+C6 C7 C8 C9 C10 C11,100n,Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm,Vishay,K104K15X7RF5TH5,6
+C12 C13,220u,Capacitor_THT:CP_Radial_D8.0mm_P3.50mm,Nichicon,UPS1E221MPD,2
+D1 D2,1N5819,Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal,ON Semiconductor,1N5819G,2
+D3,WP710A10LSECK/J3,LED_THT:LED_D3.0mm,Kingbright,WP710A10LSECK/J3,1
+D4,WP710A10LVBC/D,LED_THT:LED_D3.0mm,Kingbright,WP710A10LVBC/D,1
+D5 D6,BZX55B18,Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal,Vishay,BZX55B18,2
+F1 F2,BK60-030-DZ,Capacitor_THT:C_Disc_D7.5mm_W2.5mm_P5.00mm,Yageo,BK60-030-DZ,2
+J1,Barrel_Jack,Connector_BarrelJack:BarrelJack_Horizontal,Kobiconn,163-179PH-EX,1
+J2 J3,Conn_02x05_Odd_Even,Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical,Harwin,M20-9760542,2
+J4 J5,Conn_02x08_Odd_Even,Connector_IDC:IDC-Header_2x08_P2.54mm_Vertical,Adam Tech,BHR-16-VUA,2
+R1 R4,47k,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,Yageo,MFR-25FRF52-47K,2
+R2 R3,5.1k,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,Yageo,MFR-25FRF52-5K1,2
+R5,620k,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,Yageo,MFR-25FRF52-620K,1
+R6,750k,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,Yageo,MFR-25FRF52-750K,1
+R7 R8,100,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,Yageo,MFR-25FRF52-100R,2
+RV1 RV2,500,Potentiometer_THT:Potentiometer_Bourns_3296Y_Vertical,TT Electronics,67YR500,2
+U1,LT1963,Package_TO_SOT_THT:TO-220-5_P3.4x3.7mm_StaggerOdd_Lead3.8mm_Vertical,Analog Devices Inc.,LT1963ET#PBF,1
+U2,LT3015,Package_TO_SOT_THT:TO-220-5_P3.4x3.7mm_StaggerOdd_Lead3.8mm_Vertical,Analog Devices Inc.,LT3015ET#PBF,1
+,12 mm M3 standoffs,,Keystone Electronics,24434,2
+,6mm M3 screws,,Keystone Electronics,29311,2
+,12 VAC power supply,,Triad,WAU12-500,1
