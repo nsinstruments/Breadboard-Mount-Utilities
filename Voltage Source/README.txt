@@ -48,10 +48,10 @@ that you only use FET input op amps.
 Resistor values
 ---------------
 The calibration range is set by a resistor in series with the wiper of each
-trimmer. You may get better results by using larger resistors. The current
-values are chosen to ensure you can calibrate even with inaccurate resistors
-and a TL072 op amp. With the suggested OPA2162 op amp, you should be able to
-raise these values a bit, if you find that necessary for your requirements.
-Regardless, you probably want to use the highest value resistor you have for
-the 0V reference; 4.7M as indicated is probably sufficient but even with a lot
-of other errors 10-20M shouldn't pose a problem for calibration.
+trimmer. These are chosen based on the accuracy of the resistors, op amp, and
+voltage sources specified in the BOM. If you substitute components with lower
+accuracies, you'll need to adjust the value of these resistors. The resistor
+setting the 0V reference could be substituted up to 22M to get finer
+adjustments, but the 4.7M value is chosen to keep Johnson noise relatively low,
+as well as to wash out perturbations in the resistance due to dust,
+fingerprints, etc.
