@@ -50,8 +50,4 @@ Resistor values
 The calibration range is set by a resistor in series with the wiper of each
 trimmer. These are chosen based on the accuracy of the resistors, op amp, and
 voltage sources specified in the BOM. If you substitute components with lower
-accuracies, you'll need to adjust the value of these resistors. The resistor
-setting the 0V reference could be substituted up to 22M to get finer
-adjustments, but the 4.7M value is chosen to keep Johnson noise relatively low,
-as well as to wash out perturbations in the resistance due to dust,
-fingerprints, etc.
+accuracies, you'll need to adjust the value of these resistors.
